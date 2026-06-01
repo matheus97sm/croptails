@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dthddia3gvgto"]
+
+[ext_resource type="Texture2D" uid="uid://davexv42m3e0s" path="res://assets/game/objects/basic_tools_and_materials.png" id="1_fdphq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a7ivs"]
+atlas = ExtResource("1_fdphq")
+region = Rect2(16, 0, 16, 16)
+
+[node name="ToolAxe" type="Button" unique_id=1196399150]
+custom_minimum_size = Vector2(26, 26)
+theme_type_variation = &"ToolButton"
+icon = SubResource("AtlasTexture_a7ivs")
+icon_alignment = 1
